@@ -130,3 +130,7 @@ dmypy.json
 
 # Local secrets folder
 .secrets/
+
+# Local cache folders
+tmp/
+cache/
