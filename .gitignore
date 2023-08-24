@@ -134,3 +134,6 @@ dmypy.json
 # Local cache folders
 tmp/
 cache/
+
+# IDE folders
+.idea/
