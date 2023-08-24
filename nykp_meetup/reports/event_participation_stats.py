@@ -118,6 +118,7 @@ class EventParticipationStats:
         unique_attendees = attendees_df["name"].nunique()
         stats = {
             "sessions": len(events_df),
+            "cumulative session participation": events_df["going"].sum(),
             "unique participants": unique_attendees,
             "median attendance": events_df["going"].median(),
         }
